@@ -2,7 +2,7 @@
 
 use Stripe\StripeClient;
 
-Class getStripeCustomerByEmail {
+Class GetStripeCustomerByEmail {
 
 	public $email;
 	public $customer;
@@ -39,7 +39,7 @@ Class getStripeCustomerByEmail {
 
 		$this->customer = $target_customer;
 
-		return $this->customer
+		return $this->customer;
     }
 
 }
